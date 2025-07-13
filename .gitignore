@@ -1,0 +1,19 @@
+# Ignore raw and processed data
+data/raw/
+data/processed/
+
+# Ignore model weights
+*.h5
+*.pkl
+*.pt
+*.ckpt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Mac system file (safe to ignore even on Windows)
+.DS_Store
