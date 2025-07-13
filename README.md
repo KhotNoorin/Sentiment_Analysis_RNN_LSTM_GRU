@@ -118,7 +118,9 @@ streamlit run app.py
 ##🙋‍♀️ Author
 
 Noorin Nasir Khot
+
 M.Tech (AI & DS)
+
 IIIT Kota
 
 ---
