@@ -84,7 +84,7 @@ Each training script will:
 - Plot training loss/accuracy
 
 Example:
-```bash
+bash
 python -m experiments.train_rnn
 python -m experiments.train_lstm
 ...
