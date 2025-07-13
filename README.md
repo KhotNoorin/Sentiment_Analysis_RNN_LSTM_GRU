@@ -50,6 +50,34 @@ Sentiment_Analysis_RNN_LSTM_GRU/
 │
 └── README.md
 
+Sentiment_Analysis_RNN_LSTM_GRU/
+├── data/
+│   ├── raw/                   # IMDb dataset
+│   └── processed/             # (optional)
+├── utils/
+│   └── data_loader.py         # Preprocessing logic
+├── models/
+│   ├── rnn.py
+│   ├── lstm.py
+│   ├── bilstm.py
+│   ├── gru.py
+│   └── bigru.py
+├── experiments/
+│   ├── train_rnn.py
+│   ├── train_lstm.py
+│   ├── train_bilstm.py
+│   ├── train_gru.py
+│   └── train_bigru.py
+├── checkpoints/
+│   ├── *_model.h5             # Trained models
+│   ├── *_tokenizer.pkl        # Tokenizers
+│   └── *_training_plot.png    # Training graphs
+├── streamlit_app/
+│   └── app.py                 # Streamlit Web UI
+├── screenshots/
+│   └── *.png                  # Output screenshots (terminal + UI)
+└── README.md
+
 
 ---
 
